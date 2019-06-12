@@ -1,0 +1,70 @@
+body{
+    background-color: #dddddd;
+}
+
+textarea{
+    width: 850px;
+    height: 80px;
+    background-color: #ffffff;
+    resize: none;
+}
+
+.button_section{
+    width: 130px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.comment-box{
+    width: 815px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    position: relative;
+}
+
+.comment-box p{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+
+.edit-form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.edit-form button{
+    width: 40px;
+    height: 20px;
+    color: #282828;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+
+}
+.delete-button button{
+    width: 40px;
+    height: 20px;
+    color: #282828;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+
